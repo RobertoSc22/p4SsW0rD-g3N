@@ -375,6 +375,4 @@ function copyOnClipboard(){
    // Copy the text inside the text field
   navigator.clipboard.writeText(copyText.value)
 
-  // Alert the copied text
-  alert("Password Copied: " + copyText.value)
 }
